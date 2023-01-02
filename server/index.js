@@ -10,7 +10,7 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
-app.use(cors()); // important else your graphql end-point mught not be reachable
+app.use(cors()); // important else your graphql end-point might not be reachable
 
 // Connect to DB
 connectDB();
